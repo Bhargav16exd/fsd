@@ -1,0 +1,42 @@
+<app-navbar>></app-navbar>
+<div class="h-screen w-screen flex flex-col justify-center items-center bg-gray-100 px-4">
+
+    
+    <form class="w-full max-w-xl shadow-lg p-4 rounded-md border border-gray-50" >
+
+        <div class="w-full flex justify-center items-start flex-col my-2">
+            <h1 class="font-semibold text-3xl my-2">Sign Up for Notocean</h1>
+            <p class="text-gray-500 text-sm my-2">Create your account to start automation</p>
+        </div>
+
+        <div class="flex justify-center items-start flex-col my-2">
+            <label class="my-1 font-medium">Email</label>
+            <input autocomplete="new-email" type="email" placeholder="Enter your email" name="email" class="my-1 outline-none border rounded-md w-full py-2 px-2"/>
+        </div>
+
+        <div class="w-full flex justify-center items-start flex-col my-2">
+            <label class="my-1 font-medium">Username</label>
+            <input autocomplete="new-username" type="text" placeholder="Enter your username" name="username" class="my-1 outline-none border rounded-md w-full py-2 px-2"/>
+        </div>
+
+        <div class="w-full flex justify-center items-start flex-col my-2">
+            <label class="my-1 font-medium">Password</label>
+            <input autocomplete="new-password" type="password" placeholder="Create a password" name="password" class="my-1 outline-none border rounded-md w-full py-2 px-2"/>
+        </div>
+
+        <div class="w-full flex justify-center items-start flex-col my-2">
+            <label class="my-1 font-medium">Confirm Password</label>
+            <input autocomplete="new-password" type="password" placeholder="Confirm your password" name="confirmPassword" class="my-1 outline-none border rounded-md w-full py-2 px-2"/>
+        </div>
+
+        <button type="submit" class="my-1 bg-black text-white text-center border rounded-md w-full py-2 px-2 hover:bg-gray-800">
+            Sign Up
+        </button>
+
+        <div class="text-base my-3 text-gray-600 flex">
+            Already have an account?  
+            <a routerLink="/signin" class="text-blue-500 mx-2">Login</a>
+        </div>
+    </form>
+
+</div>
